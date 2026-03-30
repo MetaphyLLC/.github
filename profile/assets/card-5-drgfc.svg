@@ -28,16 +28,16 @@
   <!-- Step label -->
   <text x="22" y="24" font-family="'Courier New',monospace" font-size="10" fill="#3D8C8C" letter-spacing="2" opacity="0.9">STEP 5 OF 8</text>
   <!-- Acronym -->
-  <text x="22" y="125" font-family="Georgia,'Times New Roman',serif" font-size="54" font-weight="bold" fill="url(#gt)" filter="url(#tg)">DRGFC</text>
+  <text x="110" y="115" font-family="Georgia,'Times New Roman',serif" font-size="50" font-weight="bold" fill="url(#gt)" filter="url(#tg)" text-anchor="middle">DRGFC</text>
   <!-- Vertical divider -->
   <line x1="215" y1="22" x2="215" y2="165" stroke="#3D8C8C" stroke-width="0.6" opacity="0.4"/>
   <!-- Full name -->
-  <text x="232" y="88" font-family="Georgia,'Times New Roman',serif" font-size="20" fill="#3D8C8C" opacity="0.95">Dodecahedral Recursive</text>
-  <text x="232" y="115" font-family="Georgia,'Times New Roman',serif" font-size="20" fill="#3D8C8C" opacity="0.95">Fractal Compression</text>
+  <text x="232" y="88" font-family="Georgia,'Times New Roman',serif" font-size="24" fill="#3D8C8C" opacity="0.95">Dodecahedral Recursive</text>
+  <text x="232" y="115" font-family="Georgia,'Times New Roman',serif" font-size="24" fill="#3D8C8C" opacity="0.95">Geometric Fractal Compression</text>
   <!-- Tagline -->
-  <text x="232" y="143" font-family="Georgia,'Times New Roman',serif" font-size="13" font-style="italic" fill="#94A3B8" opacity="0.9">Platonic-solid mathematics enabling backup-free perpetual storage.</text>
+  <text x="232" y="143" font-family="Georgia,'Times New Roman',serif" font-size="17" font-style="italic" fill="#94A3B8" opacity="0.9">Platonic-solid mathematics enabling backup-free perpetual storage.</text>
   <!-- Tags -->
-  <text x="232" y="165" font-family="'Courier New',monospace" font-size="10" fill="#3D8C8C" letter-spacing="1" opacity="0.75">Fractal · Compression · Platonic · Perpetual</text>
+  <text x="232" y="165" font-family="'Courier New',monospace" font-size="14" fill="#3D8C8C" letter-spacing="1" opacity="0.75">Fractal · Compression · Platonic · Perpetual</text>
   <!-- Mini pentagon (top right) -->
   <polygon points="820,63 850.4,85.1 838.8,120.9 801.2,120.9 789.6,85.1" fill="none" stroke="#3D8C8C" stroke-width="0.8" opacity="0.3"/>
   <circle cx="820" cy="95" r="2" fill="#3D8C8C" opacity="0.4"/>

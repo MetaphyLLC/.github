@@ -28,14 +28,14 @@
   <!-- Step label -->
   <text x="22" y="24" font-family="'Courier New',monospace" font-size="10" fill="#C9A84C" letter-spacing="2" opacity="0.9">STEP 8 OF 8</text>
   <!-- Acronym -->
-  <text x="22" y="125" font-family="Georgia,'Times New Roman',serif" font-size="54" font-weight="bold" fill="url(#gt)" filter="url(#gg)">QUAD</text>
+  <text x="110" y="115" font-family="Georgia,'Times New Roman',serif" font-size="54" font-weight="bold" fill="url(#gt)" filter="url(#gg)">QUAD</text>
   <!-- Vertical divider -->
   <line x1="215" y1="22" x2="215" y2="165" stroke="#C9A84C" stroke-width="0.6" opacity="0.4"/>
   <!-- Full name -->
   <text x="232" y="88" font-family="Georgia,'Times New Roman',serif" font-size="20" fill="#C9A84C" opacity="0.95">Quantum Universal</text>
   <text x="232" y="115" font-family="Georgia,'Times New Roman',serif" font-size="20" fill="#C9A84C" opacity="0.95">Arrayed Domain</text>
   <!-- Tagline -->
-  <text x="232" y="143" font-family="Georgia,'Times New Roman',serif" font-size="13" font-style="italic" fill="#94A3B8" opacity="0.9">A planetary constellation of HMSS units through quantum entanglement.</text>
+  <text x="232" y="143" font-family="Georgia,'Times New Roman',serif" font-size="17" font-style="italic" fill="#94A3B8" opacity="0.9">A planetary constellation of HMSS units through quantum entanglement.</text>
   <!-- Tags -->
   <text x="232" y="165" font-family="'Courier New',monospace" font-size="10" fill="#C9A84C" letter-spacing="1" opacity="0.75">Planetary · Quantum · Constellation · Scale</text>
   <!-- Mini pentagon (top right) -->

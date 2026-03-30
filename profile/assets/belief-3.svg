@@ -21,16 +21,16 @@
     </linearGradient>
   </defs>
   <rect width="900" height="118" fill="url(#bg)"/>
-  <!-- Top accent border -->
+  <!-- Left teal accent bar -->
   <line x1="0" y1="0" x2="900" y2="0" stroke="#C9A84C" stroke-width="1.5" opacity="0.5"/>
   <!-- Bottom separator -->
   <line x1="40" y1="115" x2="860" y2="115" stroke="#C9A84C" stroke-width="0.4" opacity="0.2"/>
   <!-- Belief number (large, left) -->
-  <text x="38" y="82" font-family="Georgia,'Times New Roman',serif" font-size="62" font-weight="bold" fill="url(#gt)" filter="url(#gg)" opacity="0.9">03</text>
+  <text x="62" y="82" font-family="Georgia,'Times New Roman',serif" font-size="62" font-weight="bold" fill="url(#gt)" filter="url(#gg)" opacity="0.9">03</text>
   <!-- Vertical divider -->
   <line x1="118" y1="15" x2="118" y2="103" stroke="#C9A84C" stroke-width="0.6" opacity="0.35"/>
   <!-- Belief title -->
-  <text x="136" y="48" font-family="Georgia,'Times New Roman',serif" font-size="22" font-weight="bold" fill="#C9A84C" opacity="0.95">Test Every Claim</text>
+  <text x="136" y="50" font-family="Georgia,'Times New Roman',serif" font-size="24" font-weight="bold" fill="#C9A84C" opacity="0.95">Test Every Claim</text>
   <!-- Quote / description -->
-  <text x="136" y="74" font-family="Georgia,'Times New Roman',serif" font-size="13" font-style="italic" fill="#94A3B8" opacity="0.9">One success does not make a reproducible law. Test, question, and test again.</text>
+  <text x="136" y="80" font-family="Georgia,'Times New Roman',serif" font-size="17" font-style="italic" fill="#94A3B8" opacity="0.9">One success does not make a reproducible law. Test, question, and test again.</text>
 </svg>

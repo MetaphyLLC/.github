@@ -21,16 +21,16 @@
     </linearGradient>
   </defs>
   <rect width="900" height="118" fill="url(#bg)"/>
-  <!-- Top accent border -->
-  <line x1="0" y1="0" x2="900" y2="0" stroke="#3D8C8C" stroke-width="1.5" opacity="0.5"/>
+  <!-- Left teal accent bar -->
+  <rect x="0" y="0" width="5" height="118" fill="#3D8C8C" opacity="0.85"/>
   <!-- Bottom separator -->
   <line x1="40" y1="115" x2="860" y2="115" stroke="#3D8C8C" stroke-width="0.4" opacity="0.2"/>
   <!-- Belief number (large, left) -->
-  <text x="38" y="82" font-family="Georgia,'Times New Roman',serif" font-size="62" font-weight="bold" fill="#3D8C8C" filter="url(#tg)" opacity="0.9">04</text>
+  <text x="62" y="82" font-family="Georgia,'Times New Roman',serif" font-size="62" font-weight="bold" fill="#3D8C8C" filter="url(#tg)" opacity="0.9" text-anchor="middle">04</text>
   <!-- Vertical divider -->
   <line x1="118" y1="15" x2="118" y2="103" stroke="#3D8C8C" stroke-width="0.6" opacity="0.35"/>
   <!-- Belief title -->
-  <text x="136" y="48" font-family="Georgia,'Times New Roman',serif" font-size="22" font-weight="bold" fill="#3D8C8C" opacity="0.95">Repetition Refines Wisdom</text>
+  <text x="136" y="50" font-family="Georgia,'Times New Roman',serif" font-size="24" font-weight="bold" fill="#3D8C8C" opacity="0.95">Repetition Refines Wisdom</text>
   <!-- Quote / description -->
-  <text x="136" y="74" font-family="Georgia,'Times New Roman',serif" font-size="13" font-style="italic" fill="#94A3B8" opacity="0.9">Deliberate, reflective practice carves understanding deeper with every cycle.</text>
+  <text x="136" y="80" font-family="Georgia,'Times New Roman',serif" font-size="17" font-style="italic" fill="#94A3B8" opacity="0.9">Deliberate, reflective practice carves understanding deeper with every cycle.</text>
 </svg>
