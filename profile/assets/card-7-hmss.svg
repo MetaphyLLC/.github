@@ -18,6 +18,11 @@
       <stop offset="0%" stop-color="#A67C3D"/>
       <stop offset="40%" stop-color="#F5E6B8"/>
       <stop offset="100%" stop-color="#8B6914"/>
+      </linearGradient>
+    <linearGradient id="tt" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1A6464"/>
+      <stop offset="40%" stop-color="#9FE8E8"/>
+      <stop offset="100%" stop-color="#0D4C4C"/>
     </linearGradient>
   </defs>
   <rect width="900" height="185" fill="url(#bg)"/>
@@ -28,7 +33,7 @@
   <!-- Step label -->
   <text x="22" y="24" font-family="'Courier New',monospace" font-size="10" fill="#3D8C8C" letter-spacing="2" opacity="0.9">STEP 7 OF 8</text>
   <!-- Acronym -->
-  <text x="110" y="115" font-family="Georgia,'Times New Roman',serif" font-size="50" font-weight="bold" fill="url(#gt)" filter="url(#tg)" text-anchor="middle">HMSS</text>
+  <text x="110" y="115" font-family="Georgia,'Times New Roman',serif" font-size="50" font-weight="bold" fill="url(#tt)" filter="url(#tg)" text-anchor="middle">HMSS</text>
   <!-- Vertical divider -->
   <line x1="215" y1="22" x2="215" y2="165" stroke="#3D8C8C" stroke-width="0.6" opacity="0.4"/>
   <!-- Full name -->
