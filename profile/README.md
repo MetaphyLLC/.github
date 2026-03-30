@@ -160,3 +160,11 @@ The final expression. QUAD is a planetary-scale network of HMSS units — a cons
 <sub>⬡ &nbsp; Metaphy LLC &nbsp;·&nbsp; A Metaphy LLC Website &nbsp;·&nbsp; <a href="https://metaphysicsandcomputing.com">metaphysicsandcomputing.com</a> &nbsp;·&nbsp; © 2026</sub>
 
 </div>
+
+<div align="center">
+
+<sub>&nbsp; We Will Learn &nbsp;·&nbsp; We Will Build &nbsp;·&nbsp; We Will Grow</sub>
+
+![Profile Views](https://komarev.com/ghpvc/?username=MetaphyLLC&color=lightgray&style=flat-square)
+
+</div>
