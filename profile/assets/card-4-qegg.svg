@@ -1,0 +1,44 @@
+﻿<svg viewBox="0 0 900 185" xmlns="http://www.w3.org/2000/svg" width="900" height="185">
+  <defs>
+    <radialGradient id="bg" cx="20%" cy="50%" r="80%">
+      <stop offset="0%" stop-color="#0F1829"/>
+      <stop offset="100%" stop-color="#0A0E17"/>
+    </radialGradient>
+    <filter id="tg" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="b"/>
+      <feColorMatrix in="b" type="matrix" values="0 0 0 0 0.24 0 0 0 0 0.55 0 0 0 0 0.55 0 0 0 0.7 0" result="tb"/>
+      <feMerge><feMergeNode in="tb"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="gg" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3.5" result="b"/>
+      <feColorMatrix in="b" type="matrix" values="0 0 0 0 0.79 0 0 0 0 0.66 0 0 0 0 0.30 0 0 0 0.6 0" result="gb"/>
+      <feMerge><feMergeNode in="gb"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="gt" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#A67C3D"/>
+      <stop offset="40%" stop-color="#F5E6B8"/>
+      <stop offset="100%" stop-color="#8B6914"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="185" fill="url(#bg)"/>
+  <!-- Left teal accent bar -->
+  <rect x="0" y="0" width="5" height="185" fill="#C9A84C" opacity="0.85"/>
+  <!-- Bottom separator -->
+  <line x1="5" y1="182" x2="900" y2="182" stroke="#C9A84C" stroke-width="0.5" opacity="0.25"/>
+  <!-- Step label -->
+  <text x="22" y="24" font-family="'Courier New',monospace" font-size="10" fill="#C9A84C" letter-spacing="2" opacity="0.9">STEP 4 OF 8</text>
+  <!-- Acronym -->
+  <text x="22" y="125" font-family="Georgia,'Times New Roman',serif" font-size="72" font-weight="bold" fill="url(#gt)" filter="url(#gg)">QEGG</text>
+  <!-- Vertical divider -->
+  <line x1="215" y1="22" x2="215" y2="165" stroke="#C9A84C" stroke-width="0.6" opacity="0.4"/>
+  <!-- Full name -->
+  <text x="232" y="88" font-family="Georgia,'Times New Roman',serif" font-size="20" fill="#C9A84C" opacity="0.95">Quantum Entangled</text>
+  <text x="232" y="115" font-family="Georgia,'Times New Roman',serif" font-size="20" fill="#C9A84C" opacity="0.95">Geometric Grid</text>
+  <!-- Tagline -->
+  <text x="232" y="143" font-family="Georgia,'Times New Roman',serif" font-size="13" font-style="italic" fill="#94A3B8" opacity="0.9">Dodecahedral grid encoding quantum-entangled photonic data.</text>
+  <!-- Tags -->
+  <text x="232" y="165" font-family="'Courier New',monospace" font-size="10" fill="#C9A84C" letter-spacing="1" opacity="0.75">Quantum · Geometry · Dodecahedral · Encoding</text>
+  <!-- Mini pentagon (top right) -->
+  <polygon points="820,63 850.4,85.1 838.8,120.9 801.2,120.9 789.6,85.1" fill="none" stroke="#C9A84C" stroke-width="0.8" opacity="0.3"/>
+  <circle cx="820" cy="95" r="2" fill="#C9A84C" opacity="0.4"/>
+</svg>

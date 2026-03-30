@@ -1,0 +1,36 @@
+﻿<svg viewBox="0 0 900 118" xmlns="http://www.w3.org/2000/svg" width="900" height="118">
+  <defs>
+    <radialGradient id="bg" cx="15%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#0F1829"/>
+      <stop offset="100%" stop-color="#0A0E17"/>
+    </radialGradient>
+    <filter id="tg" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="b"/>
+      <feColorMatrix in="b" type="matrix" values="0 0 0 0 0.24 0 0 0 0 0.55 0 0 0 0 0.55 0 0 0 0.7 0" result="tb"/>
+      <feMerge><feMergeNode in="tb"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="gg" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="b"/>
+      <feColorMatrix in="b" type="matrix" values="0 0 0 0 0.79 0 0 0 0 0.66 0 0 0 0 0.30 0 0 0 0.6 0" result="gb"/>
+      <feMerge><feMergeNode in="gb"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="gt" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#A67C3D"/>
+      <stop offset="40%" stop-color="#F5E6B8"/>
+      <stop offset="100%" stop-color="#8B6914"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="118" fill="url(#bg)"/>
+  <!-- Top accent border -->
+  <line x1="0" y1="0" x2="900" y2="0" stroke="#C9A84C" stroke-width="1.5" opacity="0.5"/>
+  <!-- Bottom separator -->
+  <line x1="40" y1="115" x2="860" y2="115" stroke="#C9A84C" stroke-width="0.4" opacity="0.2"/>
+  <!-- Belief number (large, left) -->
+  <text x="38" y="82" font-family="Georgia,'Times New Roman',serif" font-size="62" font-weight="bold" fill="url(#gt)" filter="url(#gg)" opacity="0.9">05</text>
+  <!-- Vertical divider -->
+  <line x1="118" y1="15" x2="118" y2="103" stroke="#C9A84C" stroke-width="0.6" opacity="0.35"/>
+  <!-- Belief title -->
+  <text x="136" y="48" font-family="Georgia,'Times New Roman',serif" font-size="22" font-weight="bold" fill="#C9A84C" opacity="0.95">Truth Always Evolves</text>
+  <!-- Quote / description -->
+  <text x="136" y="74" font-family="Georgia,'Times New Roman',serif" font-size="13" font-style="italic" fill="#94A3B8" opacity="0.9">"Truths once proven can be proven false with new understanding."</text>
+</svg>

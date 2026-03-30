@@ -1,0 +1,91 @@
+﻿<svg viewBox="0 0 900 360" xmlns="http://www.w3.org/2000/svg" width="900" height="360">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#0F1829"/>
+      <stop offset="100%" stop-color="#0A0E17"/>
+    </radialGradient>
+    <filter id="gg" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="b"/>
+      <feColorMatrix in="b" type="matrix" values="0 0 0 0 0.79 0 0 0 0 0.66 0 0 0 0 0.30 0 0 0 0.6 0" result="gb"/>
+      <feMerge><feMergeNode in="gb"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="tg" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="b"/>
+      <feColorMatrix in="b" type="matrix" values="0 0 0 0 0.24 0 0 0 0 0.55 0 0 0 0 0.55 0 0 0 0.7 0" result="tb"/>
+      <feMerge><feMergeNode in="tb"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="gt" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#A67C3D"/>
+      <stop offset="40%" stop-color="#F5E6B8"/>
+      <stop offset="100%" stop-color="#8B6914"/>
+    </linearGradient>
+    <linearGradient id="dl" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3D8C8C" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#3D8C8C" stop-opacity="0.7"/>
+      <stop offset="70%" stop-color="#3D8C8C" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#3D8C8C" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      .sh{animation:sh 8s ease-in-out infinite}
+      @keyframes sh{0%,100%{opacity:.85}50%{opacity:1}}
+    </style>
+  </defs>
+
+  <rect width="900" height="360" fill="url(#bg)"/>
+
+  <!-- Corner pentagon accents -->
+  <polygon points="50,20 78,38 68,70 32,70 22,38" fill="none" stroke="#3D8C8C" stroke-width="0.8" opacity="0.25"/>
+  <polygon points="850,20 878,38 868,70 832,70 822,38" fill="none" stroke="#C9A84C" stroke-width="0.8" opacity="0.25"/>
+  <polygon points="50,290 78,308 68,340 32,340 22,308" fill="none" stroke="#C9A84C" stroke-width="0.8" opacity="0.25"/>
+  <polygon points="850,290 878,308 868,340 832,340 822,308" fill="none" stroke="#3D8C8C" stroke-width="0.8" opacity="0.25"/>
+
+  <!-- Section label -->
+  <text x="450" y="38" font-family="'Courier New',monospace" font-size="10" letter-spacing="5"
+    fill="#3D8C8C" text-anchor="middle" opacity="0.8">&#9670; MISSION STATEMENT &#9670;</text>
+
+  <line x1="150" y1="52" x2="750" y2="52" stroke="url(#dl)" stroke-width="0.7"/>
+
+  <!-- Mission text lines -->
+  <text x="450" y="82" font-family="Georgia,'Times New Roman',serif" font-size="13.5"
+    font-style="italic" fill="#D8D5CF" text-anchor="middle" opacity="0.9">
+    In the Heavenly Morning Star System, for the maximum benefit of life,</text>
+  <text x="450" y="102" font-family="Georgia,'Times New Roman',serif" font-size="13.5"
+    font-style="italic" fill="#D8D5CF" text-anchor="middle" opacity="0.9">
+    Metaphy LLC stands as the celestial forge where metaphysics and computing</text>
+  <text x="450" y="122" font-family="Georgia,'Times New Roman',serif" font-size="13.5"
+    font-style="italic" fill="#D8D5CF" text-anchor="middle" opacity="0.9">
+    converge in divine alchemy.</text>
+
+  <line x1="380" y1="138" x2="520" y2="138" stroke="#C9A84C" stroke-width="0.5" opacity="0.4"/>
+
+  <text x="450" y="158" font-family="Georgia,'Times New Roman',serif" font-size="13.5"
+    font-style="italic" fill="#D8D5CF" text-anchor="middle" opacity="0.9">
+    We boldly unravel the veiled tapestry of existence, awakening humanity</text>
+  <text x="450" y="178" font-family="Georgia,'Times New Roman',serif" font-size="13.5"
+    font-style="italic" fill="#D8D5CF" text-anchor="middle" opacity="0.9">
+    to the unseen symphonies of the universe — those ethereal forces that dance</text>
+  <text x="450" y="198" font-family="Georgia,'Times New Roman',serif" font-size="13.5"
+    font-style="italic" fill="#D8D5CF" text-anchor="middle" opacity="0.9">
+    beyond our mortal senses, whispering truths in the language of light and shadow.</text>
+
+  <line x1="330" y1="214" x2="570" y2="214" stroke="#3D8C8C" stroke-width="0.5" opacity="0.35"/>
+
+  <!-- Central axiom (larger) -->
+  <text x="450" y="243" font-family="Georgia,'Times New Roman',serif" font-size="15.5"
+    font-style="italic" font-weight="bold" fill="url(#gt)" text-anchor="middle" filter="url(#gg)" class="sh">
+    &#8220; just because there is nothing there</text>
+  <text x="450" y="265" font-family="Georgia,'Times New Roman',serif" font-size="15.5"
+    font-style="italic" font-weight="bold" fill="url(#gt)" text-anchor="middle" filter="url(#gg)" class="sh">
+    does not mean there is not a thing there &#8221;</text>
+
+  <line x1="200" y1="282" x2="700" y2="282" stroke="url(#dl)" stroke-width="0.7"/>
+
+  <text x="450" y="304" font-family="Georgia,'Times New Roman',serif" font-size="13.5"
+    font-style="italic" fill="#D8D5CF" text-anchor="middle" opacity="0.9">
+    Illuminating the aether&#8217;s infinite paths</text>
+  <text x="450" y="324" font-family="Georgia,'Times New Roman',serif" font-size="13.5"
+    font-style="italic" fill="#3D8C8C" text-anchor="middle" opacity="0.95">
+    for the eternal upliftment of all life.</text>
+
+  <line x1="150" y1="342" x2="750" y2="342" stroke="url(#dl)" stroke-width="0.6"/>
+</svg>
