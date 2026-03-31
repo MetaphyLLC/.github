@@ -6,13 +6,13 @@
 
 <div align="center">
 
-[![Website](https://img.shields.io/badge/Website-metaphysicsandcomputing.com-3D8C8C?style=for-the-badge)](https://metaphysicsandcomputing.com)&nbsp;
+[![Website](https://img.shields.io/badge/metaphysicsandcomputing.com-3D8C8C?style=for-the-badge)](https://metaphysicsandcomputing.com)&nbsp;
 [![Twitter / X](https://img.shields.io/badge/%40MetaphyKing-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/MetaphyKing)&nbsp;
-[![Email](https://img.shields.io/badge/Email-C9A84C?style=for-the-badge)](mailto:Logan@MetaphysicsandComputing.com)
+[![Email](https://img.shields.io/badge/Logan@MetaphysicsandComputing-C9A84C?style=for-the-badge)](mailto:Logan@MetaphysicsandComputing.com)
 
 [![5 Patents Pending](https://img.shields.io/badge/Patents-5%20Pending-3D8C8C?style=flat-square)]()&nbsp;
-[![Active Research](https://img.shields.io/badge/Status-Active%20Research-C9A84C?style=flat-square)]()&nbsp;
-[![Founded by Randell Logan Smith](https://img.shields.io/badge/Founder-Randell%20Logan%20Smith-E2E8F0?style=flat-square)]()
+[![Active Research](https://img.shields.io/badge/Status-Active%20Research-000000?style=flat-square)]()&nbsp;
+[![Founded by Randell Logan Smith](https://img.shields.io/badge/Founder-Randell%20Logan%20Smith-C9A84C?style=flat-square)]()
 
 </div>
 
@@ -51,7 +51,7 @@ Everything Metaphy LLC builds converges into a single unified architecture — t
 ├─ 05 ·  DRGFC  Dodecahedral Recursive Fractal Compression  ← storage
 ├─ 06 ·  HCNA   Hierarchical Composite Node Architecture    ← infrastructure
 │
-└─ 07 ·  HMSS   Integration Platform               ← unified system
+└─ 07 ·  HMSS   Heavenly Morning Star System        ← unified system
             │
             └─ 08 · QUAD   Quantum Universal Arrayed Domain  ← planetary scale
 ```
